@@ -20,7 +20,6 @@ To get started with this project, follow these steps:
 
 ### Project Structure
 The project structure is as follows:
-    ```shell 
 
     Sailing_Downstream_Task_LFX_Mentorship/
     ├── src/
