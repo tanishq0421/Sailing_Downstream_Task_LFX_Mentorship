@@ -21,6 +21,7 @@ To get started with this project, follow these steps:
 ### Project Structure
 The project structure is as follows:
     ```shell 
+
     Sailing_Downstream_Task_LFX_Mentorship/
     ├── src/
     │ └── filterList.js
@@ -30,4 +31,29 @@ The project structure is as follows:
     ├── README.md
     └── index.js
 
+- `src/`: Contains the implementation of the `filterList` function.
+- `tests/`: Includes unit tests for the `filterList` function.
+- `package.json`: Manages project dependencies and scripts.
+- `README.md`: Provides an overview of the project and instructions for setup, execution, and testing.
+- `index.js`: Serves as the entry point for the application.
+
+## How to Run the Code
+1. Navigate to the project directory in your terminal.
+2. Run the following command to execute the code with an example input list:
+    ```shell
+    node index.js 1,2,3,4,5,6,7,8,9,10
+3. Replace 1,2,3,4,5,6,7,8,9,10 with your desired input list of integers, separated by commas.
+
+## How to test the Code
+To run the unit tests for the filterList function, follow these steps:
+
+1. Navigate to the project directory in your terminal.
+    ```shell
+    cd Sailing_Downstream_Task_LFX_Mentorship
+
+2. Run the following command:
+    ```shell
+    yarn test
+
+This command executes the Jest test suite, which validates the functionality and edge cases of the filterList function.
 
