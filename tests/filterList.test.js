@@ -1,4 +1,4 @@
-const filterList = require('../src/filterList');
+const filterList = require('./../src/filterlList');
 
 test('throws an error if list length is not a multiple of 10', () => {
     expect(() => filterList([1, 2, 3])).toThrow("List length is not a multiple of 10");
