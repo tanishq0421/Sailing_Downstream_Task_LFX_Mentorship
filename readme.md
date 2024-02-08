@@ -18,6 +18,12 @@ To get started with this project, follow these steps:
     ```shell
     cd Sailing_Downstream_Task_LFX_Mentorship
 
+3. Install the required dependencies
+    ```shell
+    yarn add
+        OR
+    npm i
+    
 ### Project Structure
 The project structure is as follows:
 
